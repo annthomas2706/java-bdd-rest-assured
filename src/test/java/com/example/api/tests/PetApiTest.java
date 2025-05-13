@@ -14,7 +14,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class PetApiTest {
 
     private static final String BASE_URL = "https://petstore.swagger.io/v2"; // Base URI for the API
-    private static final String PET_ID = "1"; // Example pet ID for testing
+    private static final String PET_ID = "10"; // Example pet ID for testing
     private ApiClient apiClient;
 
     @BeforeEach
